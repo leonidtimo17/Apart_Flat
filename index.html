@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Apart Flat</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="fonts/fontawesome-free-5.15.1-web/css/regular.css">
+    <link rel="stylesheet" href="fonts/fontawesome-free-5.15.1-web/css/fontawesome.css">
+    <link rel="stylesheet" href="fonts/fontawesome-free-5.15.1-web/css/solid.css">
+    <link rel="stylesheet" href="fonts/fontawesome-free-5.15.1-web/css/brands.css">
+    <link rel="stylesheet" href="css/ScreenAdapt.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Apart Flat</a>
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+                <span></span>
+            </label>
+
+            <div class="toggle">
+                <ul>
+                    <li><a href="#" class="menu_item">Каталог</a></li>
+                    <li><a href="#" class="menu_item">Продажа</a></li>
+                    <li><a href="#" class="menu_item">Коммерческая</a></li>
+                </ul>
+            </div>
+            <div class="toggle_icon">
+                <ul>
+                    <li><a href="#"><i class="far fa-bell"></i></a></li>
+                    <li><a href="#"><i class="far fa-heart"></i></a></li>
+                </ul>
+            </div>
+            <div class="account_button">
+                <a href="Account.html" class="sign_in">ВОЙТИ</a>
+                <a href="Account.html">РЕГИСТРАЦИЯ</a>
+            </div>
+    </header>
+    <section class="banner">
+        <div class="TextBx">
+            <h1>#СИДИ ДОМА</h1>
+            <h2>СМОТРИ ЛУЧШЕЕ У НАС</h2>
+        </div>
+        <div class="banner_search">
+            <input type="text" class="search" value="Ищите проще" onfocus="if (this.value == 'Ищите проще') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Ищите проще';}">
+            <span class="bar"></span>
+        </div>
+    </section>
+    <section class="content1_text">
+        <div class="text_YKT">
+            <h1>
+                О сайте
+            </h1>
+            <h2>
+                В базе Apart Flat вы найдёте объявления по продаже недвижимости в Якутске. Все представленные на сайте объекты проверены нашей командой модераторов. Для удобства вы можете загрузить мобильное приложение на iPhone и Android, а также удобно находить предложения благодаря структурированному каталогу и форме поиска на нашем сайте. Для облегчения поиска у нас реализована система рекомендаций похожих объявлений. Все объекты, которые Вам понравились, легко найти в личном кабинете с помощью добавления в "Избранное". Проверенное жильё в Якутске находится на Apart Flat.
+            </h2>
+        </div>
+        <div class="line_str"></div>
+    </section>
+    <section class="new_content_tour">
+        <div class="text_new_post">
+            <p>Свежие приложения</p><h1></h1>
+        </div>
+        <div class="iframe_content">
+            <iframe src="https://rec360.ru/tour/demotour.html" allowfullscreen="allowfullscreen"class="lol"></iframe>
+            <iframe src="https://rec360.ru/tour/demotour.html" allowfullscreen="allowfullscreen" class="lol"></iframe>
+            <iframe src="https://rec360.ru/tour/demotour.html" allowfullscreen="allowfullscreen" class="lol"></iframe>
+        </div>
+        <div class="line_str2"></div>
+    </section>
+    <section class="search_in_card">
+        <div class="content_search_in_card">
+            <h1>Найди квартиру своей мечты по карте</h1>
+            <input type="text" value="Город" onfocus="if (this.value == 'Город') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Город';}">
+            <input type="text" value="Цена" onfocus="if (this.value == 'Цена') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Цена';}">
+            <input type="text" value="Комнаты" onfocus="if (this.value == 'Комнаты') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Комнаты';}">
+            <button class="">Применить</button>
+        </div>
+        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119755.76325595437!2d129.56170513420815!3d62.03126257021792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5bf63939a0d2c47d%3A0x69b4c4b35cafa2fb!2z0K_QutGD0YLRgdC6LCDQoNC10YHQvy4g0KHQsNGF0LAgKNCv0LrRg9GC0LjRjyk!5e0!3m2!1sru!2sru!4v1602647227146!5m2!1sru!2sru" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </section>
+    <section class="banner_fon">
+        <h1>Вы можете написать нам о сотрудничестве</h1>
+        <form action="mail.php"  class="content_position">
+                <div class="content_position_inputs">
+                    <input type="text" name="user_email" value="Mail" onfocus="if (this.value == 'Mail') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Mail';}" class="inputs">
+                    <input type="text" name="user_name" value="Имя" onfocus="if (this.value == 'Имя') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Имя';}" class="inputs">
+                    <input type="text" name="user_phone" value="Телефон" onfocus="if (this.value == 'Телефон') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Телефон';}" class="inputs">
+                    <button type="submit">Написать</button>
+                </div>
+                <div class="content_position_message">
+                    <input type="text" name="user_message" value="Сообщение" onfocus="if (this.value == 'Сообщение') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Сообщение';}">
+                </div>
+            <div class="content_position_social">
+                <div class="social">
+                    <p>Наши социальные сети</p>
+                    <div class="social_icon">
+                        <ul>
+                            <li><a href="https://www.instagram.com/?hl=ru"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://web.telegram.org/#/login"><i class="fab fa-telegram"></i></a></li>
+                            <li><a href="https://vk.com/feed"><i class="fab fa-vk"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <p>Все права защищены © 2020</p>
+        <h1>LTIM production</h1>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/jquery-3.5.0.min.map"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDR8P72HMX3zllKeeZt8X89dJWMEu0LSX8&callback=myMap"async defer ></script>
+</body>
+</html>

@@ -1,0 +1,210 @@
+@media screen and (max-width: 991px) {
+    /* стили для больших планшетов - начало */
+
+}
+
+@media screen and (max-width: 767px) {
+    /* стили для средних планшетов - начало */
+
+}
+
+@media screen and (max-width: 479px) {
+    /* стили для телефонов - начало */
+    header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 70px;
+        padding: 20px 100px;
+        display: flex;
+        align-items: center;
+        background: #FEFDFD;
+        z-index: 1000;
+    }
+    header.sticky{
+        background: rgba(0, 0, 0, 0.55);
+        box-shadow: 0 0 4px 2px silver;
+    }
+    header.sticky ul li a{
+        color: black;
+    }
+    header.sticky ul li i{
+        color: black;
+    }
+    header.sticky .account_button a{
+        color: black;
+        border: 2px solid black;;
+    }
+    header.sticky .logo{
+        color: #FFFFFF;
+    }
+    header .logo{
+        color: #111;
+        font-size: 24px;
+        text-decoration: none;
+        font-family: 'Prata',sans-serif;
+        position: relative;
+    }
+    .toggle ul{
+    }
+    .toggle ul li{
+    }
+    .toggle ul li a{
+        display: grid;
+    }
+    #menu__toggle {
+        opacity: 0;
+    }
+    /* стилизуем кнопку */
+    .menu__btn {
+        display: flex; /* используем flex для центрирования содержимого */
+        align-items: center;  /* центрируем содержимое кнопки */
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        width: 26px;
+        height: 26px;
+        cursor: pointer;
+        z-index: 1;
+    }
+    .menu__btn > span,
+    .menu__btn > span::before,
+    .menu__btn > span::after {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 2px;
+        background-color: #616161;
+    }
+    .menu__btn > span::before {
+        content: '';
+        top: -8px;
+    }
+    .menu__btn > span::after {
+        content: '';
+        top: 8px;
+    }
+    .toggle{
+        display: block;
+        position: fixed;
+        visibility: hidden;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 80px 0;
+        list-style: none;
+        text-align: center;
+        background-color: #ECEFF1;
+        box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
+    }
+    .menu_item {
+        display: block;
+        padding: 12px 24px;
+        font-family: 'Montserrat', sans-serif;
+        color: #111;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .menu_item:hover {
+        background-color: #CFD8DC;
+    }
+    #menu__toggle:checked ~ .menu__btn > span {
+        transform: rotate(45deg);
+    }
+    #menu__toggle:checked ~ .menu__btn > span::before {
+        top: 0;
+        transform: rotate(0);
+    }
+    #menu__toggle:checked ~ .menu__btn > span::after {
+        top: 0;
+        transform: rotate(90deg);
+    }
+    #menu__toggle:checked ~ .toggle{
+        visibility: visible;
+        left: 0;
+    }
+    .menu__btn > span,
+    .menu__btn > span::before,
+    .menu__btn > span::after {
+        transition-duration: .25s;
+    }
+    .menu__box {
+        transition-duration: .25s;
+    }
+    .menu__item {
+        transition-duration: .25s;
+    }
+    .toggle_icon{
+        position: relative;
+        display: none;
+        left: 250px;
+    }
+    .toggle_icon ul{
+        position: relative;
+        display: flex;
+        right: 120px;
+    }
+    .toggle_icon ul li{
+        position: relative;
+        list-style: none;
+    }
+    .toggle_icon ul li i{
+        font-family: 'Font Awesome 5 Free', sans-serif;
+        font-weight: 400;
+        background: none;
+        font-size: 24px;
+        text-decoration: none;
+        margin: 0 20px;
+        color: black;
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+    }
+    .toggle_icon i:hover{
+        transition: all 200ms ease-out;
+        -moz-transition: 0.2s ease all;
+        -webkit-transition: 0.2s ease all;
+        background: linear-gradient(150deg, #2699D7 15%, #21E3D8 85%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: table;
+        text-transform: unset;
+    }
+    .toggle_icon a:active{
+        background-color: silver;
+        transition: all 200ms ease-out;
+    }
+    .account_button{
+        display: none;
+        position: relative;
+    }
+    .account_button a{
+        position: relative;
+        display: inline-block;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #111111;
+        padding: 12px 26px;
+        border:  2px solid #000000 ;
+        border-radius: 15px;
+    }
+    .account_button a:first-child{
+        right: 10px;
+        display: none;
+    }
+    .account_button a:hover{
+        color: #FEFDFD;
+        background: linear-gradient(180deg, #2699D7 15%, #21E3D8 85%);
+        border:  2px solid #FEFDFD;
+        transition: all 200ms ease-out;
+        -moz-transition: 0.2s ease all;
+        -webkit-transition: 0.2s ease all;
+    }
+}
