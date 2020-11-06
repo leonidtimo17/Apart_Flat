@@ -125,6 +125,10 @@ header input, label, span::before{
     display: table;
     text-transform: unset;
 }
+.toggle_icon a{
+    text-transform: none;
+    text-decoration: none;
+}
 .toggle_icon a:active{
     background-color: silver;
     transition: all 200ms ease-out;
@@ -402,7 +406,7 @@ header input, label, span::before{
 }
 .content_search_in_card button:hover{
     box-shadow: 0 0 6px 3px #66d8fc;
-    transition: 0.2s ease all;
+    transition: 0.8s ease all;
     -moz-transition: 0.2s ease all;
     -webkit-transition: 0.2s ease all;
 }
