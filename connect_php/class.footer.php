@@ -1,4 +1,4 @@
-<?php
+
     <footer>
             <p>Все права защищены © 2020</p>
             <h1>LTIM production</h1>
@@ -10,4 +10,3 @@
     </body>
 
     </html>
-?>

@@ -14,20 +14,20 @@
     <link rel="stylesheet" href="css/ScreenAdapt.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <a href="#" class="logo">Apart Flat</a>
             <input id="menu__toggle" type="checkbox" />
             <label class="menu__btn" for="menu__toggle">
-                <span></span>
+                <span class="button button-toggle"></span>
             </label>
 
-            <div class="toggle">
+            <nav class="toggle">
                 <ul>
-                    <li><a href="Catalog.html" class="menu_item">Каталог</a></li>
-                    <li><a href="Sales.html" class="menu_item">Продажа</a></li>
-                    <li><a href="Commercial.html" class="menu_item">Коммерческая</a></li>
+                    <li><a href="Catalog.html" class="nav_item">Каталог</a></li>
+                    <li><a href="Sales.html" class="nav_item">Продажа</a></li>
+                    <li><a href="Commercial.html" class="nav_item">Коммерческая</a></li>
                 </ul>
-            </div>
+            </nav>
             <div class="toggle_icon">
                 <ul>
                     <li><a href="#"><i class="far fa-bell"></i></a></li>
@@ -35,8 +35,11 @@
                 </ul>
             </div>
             <div class="account_button">
-                <a href="Account.html" class="sign_in">ВОЙТИ</a>
-                <a href="Account.html">РЕГИСТРАЦИЯ</a>
+                <ul>
+                    <li>
+                        <a href="Account.html"><i class="fas fa-user-circle"></i></a>
+                    </li>
+                </ul>
             </div>
     </header>
     <section class="banner">
@@ -83,7 +86,7 @@
     </section>
     <section class="banner_fon">
         <h1>Вы можете написать нам о сотрудничестве</h1>
-        <form action="mail.php"  class="content_position">
+        <form action="connect_php/mail.php" class="content_position">
                 <div class="content_position_inputs">
                     <input type="text" name="user_email" value="Mail" onfocus="if (this.value == 'Mail') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Mail';}" class="inputs">
                     <input type="text" name="user_name" value="Имя" onfocus="if (this.value == 'Имя') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Имя';}" class="inputs">

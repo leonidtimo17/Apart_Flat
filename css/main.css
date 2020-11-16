@@ -31,13 +31,13 @@ header.sticky{
 }
 header.sticky ul li a{
     color: #FFFFFF;
+    border: none;
 }
 header.sticky ul li i{
     color: #FFFFFF;
 }
 header.sticky .account_button a{
     color: #FFFFFF;
-    border: 2px solid #FFFFFF;
 }
 header.sticky .logo{
     color: #FFFFFF;
@@ -115,7 +115,7 @@ header input, label, span::before{
     height: 24px;
     cursor: pointer;
 }
-.toggle_icon i:hover{
+.toggle_icon ul li i:hover{
     transition: all 200ms ease-out;
     -moz-transition: 0.2s ease all;
     -webkit-transition: 0.2s ease all;
@@ -134,32 +134,58 @@ header input, label, span::before{
     transition: all 200ms ease-out;
 }
 .account_button{
-    display: flex;
     position: relative;
+    left: 100px;
+    display: flex;
+    border: none;
+}
+.account_button ul{
+    position: relative;
+    display: flex;
+    right: 120px;
+}
+.account_button ul li{
+    position: relative;
+    list-style: none;
 }
 .account_button a{
-    position: relative;
-    display: inline-block;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-size: 14px;
+    border: none;
     text-decoration: none;
-    text-transform: uppercase;
-    color: #111111;
-    padding: 12px 26px;
-    border:  2px solid #000000 ;
-    border-radius: 15px;
+    text-transform: none;
 }
-.account_button a:first-child{
-    right: 10px;
+.account_button i{
+    font-family: 'Font Awesome 5 Free', sans-serif;
+    font-weight: 400;
+    background: none;
+    font-size: 30px;
+    text-decoration: none;
+    margin: 0 20px;
+    color: black;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
 }
-.account_button a:hover{
-    color: #FEFDFD;
-    background: linear-gradient(180deg, #2699D7 15%, #21E3D8 85%);
-    border:  2px solid #FEFDFD;
+.account_button ul li a{
+    text-transform: none;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+.account_button ul li a:hover{
+    text-transform: none;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+.account_button i:hover{
     transition: all 200ms ease-out;
     -moz-transition: 0.2s ease all;
     -webkit-transition: 0.2s ease all;
+    background: linear-gradient(150deg, #2699D7 15%, #21E3D8 85%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    text-transform: none;
 }
 .banner{
     position: relative;

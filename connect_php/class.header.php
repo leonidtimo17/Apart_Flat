@@ -1,4 +1,4 @@
-<?php
+
     <!doctype html>
     <html lang="en">
     <head>
@@ -40,4 +40,3 @@
                     <a href="#">РЕГИСТРАЦИЯ</a>
                 </div>
         </header>
-?>

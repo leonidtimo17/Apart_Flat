@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="PhpInterpreters">
+    <interpreters>
+      <interpreter id="400739c1-247c-4de1-bdef-62f062f07aea" name="root@ApartFlat.com:9080 password" home="sshConfig://DATA" debugger_id="php.debugger.XDebug">
+        <remote_data INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" SSH_CONFIG_ID="0284c81b-d0d0-475b-85f0-b4c0fbee32a8" SSH_CONFIG_NAME="root@ApartFlat.com:9080 password" SSH_CREDENTIALS_ID="sshConfig://root@ApartFlat.com:9080 password" />
+      </interpreter>
+    </interpreters>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.4" />
   <component name="PhpRuntimeConfiguration" document_root_path="ROOT" />
 </project>
