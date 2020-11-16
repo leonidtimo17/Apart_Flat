@@ -1078,7 +1078,13 @@
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="343" parent="339" name="PRIMARY">
+    <column id="343" parent="339" name="Username">
+      <Position>4</Position>
+      <DataType>varchar(60)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="344" parent="339" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>ID</ColNames>
       <Primary>1</Primary>

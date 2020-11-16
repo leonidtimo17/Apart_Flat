@@ -37,7 +37,11 @@
             <div class="account_button">
                 <ul>
                     <li>
-                        <a href="Account.html"><i class="fas fa-user-circle"></i></a>
+                        <i class="fas fa-user-circle" onclick="myFunction()"></i>
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="Registration.html">Регистрация</a>
+                            <a href="Authorization.html">Авторизация</a>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -114,6 +118,7 @@
         <p>Все права защищены © 2020</p>
         <h1>LTIM production</h1>
     </footer>
+    <script src="js/acc-button.js"></script>
     <script src="js/main.js"></script>
     <script src="js/header.js"></script>
     <script src="js/jquery-3.5.0.min.map"></script>

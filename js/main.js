@@ -6,3 +6,8 @@ function myMap() {
    };
    var map = new google.maps.Map(mapCanvas, mapOptions);
 }
+
+function myFunction() {
+   document.getElementById("myDropdown").classList.toggle("show");
+}
+
